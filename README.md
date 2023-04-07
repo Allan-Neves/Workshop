@@ -17,6 +17,8 @@
 
 Neste projeto, utilizei pela primeira vez um sistema funcional de captação de e-mails. Gostei muito do aprendizado, porém, não achei a plataforma muito prática.
 
+(Toda a responsividade deste site foi feita 100% por mim.)
+
 ## Como Executar o Projeto
 
 Para executar o projeto, basta fazer o download ou clonar este repositório em seu computador. Em seguida, abra o arquivo index.html no seu navegador e a página será exibida.
