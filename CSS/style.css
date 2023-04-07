@@ -126,4 +126,14 @@ footer {
         padding: 35px;
         float: right;
     }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture {
+        padding-bottom: 15px;
+    }
 }
