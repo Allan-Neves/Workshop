@@ -5,8 +5,9 @@
     padding: 0;
 }
 
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
     background-color: black;
 
 }
@@ -27,7 +28,7 @@ header {
 }
 
 .title {
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 /* Conteúdo principal */
@@ -47,11 +48,12 @@ section {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .mb {
     margin-bottom: 15px;
+    font-size: 1.6rem;
 }
 
 input, select {
@@ -106,8 +108,12 @@ footer {
     margin-bottom: 20px;
 }
 
+.description p {
+    font-size: 1.6rem;
+}
+
 .description h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 @media screen and (max-width: 738px) {
