@@ -25,7 +25,7 @@ Para executar o projeto, basta fazer o download ou clonar este repositório em s
 
 ## Estrutura do Projeto
 
-- `CSS/`: Pasta que contém o arquivo `style.css`, responsável por definir os estilos do site.
+- `style.css`: Arquivo que contém todos os estilos do site.
 - `imagens/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
 - `index.html`: Arquivo príncipal do site.
 
