@@ -15,7 +15,7 @@
 
 ## Aprendizados
 
-Neste projeto, utilizei pela primeira vez um sistema funcional de captação de e-mails. Gostei muito do aprendizado, porém, não achei a plataforma muito prática.
+Neste projeto, utilizei pela primeira vez um sistema funcional de captação de e-mails. Gostei muito do aprendizado, demorei um pouco para pegar o jeito com essa nova ferramenta, mas no final consegui fazer funcionar.
 
 (Toda a responsividade deste site foi feita 100% por mim.)
 
