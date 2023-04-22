@@ -1,95 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
-body, html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 62.5%;
+body {
     background-color: black;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Cabeçalho */
+h1 {
+    font-size: 26px;
+}
 
-.container {
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#container {
     max-width: 1000px;
     margin: auto;
 }
 
 header {
-    background-color: #48C5CE;
-    font-family: 'Roboto', sans-serif;
+    background-color: #70dee6;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-.title {
-    font-size: 2.6rem;
-}
+/*        */
 
-/* Conteúdo principal */
-
-section {
+.section-form {
     padding: 20px;
-    background-image: url('../imagens/fundo.jpg');
+    background-image: url("../imagens/fundo.jpg");
     background-size: cover;
-    overflow: hidden;
+    background-position: center;
 }
 
-.form-container {
-    max-width: 250px;
+.container-form {
     background-color: #FFFFFFBB;
+    max-width: 230px;
+    margin-left: auto;
     padding: 20px;
-    float: right;
 }
 
-h2 {
-    font-size: 1.6rem;
-}
-
-.mb {
-    margin-bottom: 15px;
-    font-size: 1.6rem;
+.margin-b {
+    margin-bottom: 20px;
 }
 
 input, select {
+    margin-bottom: 10px;
     width: 100%;
     padding: 10px;
+    border: 0;
     box-sizing: border-box;
-    border: none;
-    margin-bottom: 10px;
 }
 
 input[type="submit"] {
-    color: white;
     background-color: #48C5CE;
+    color: white;
     font-weight: bold;
 }
 
 select {
-    -moz-appearance: none;
-    -webkit-appearance: none;    /* Foi colocada as 3 propriedades para a compatibilidade com todos os navegadores (elemento novo no CSS) */
     appearance: none;
-    background-image: url('../imagens/seta.jpg');
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("../imagens/seta.jpg");
     background-repeat: no-repeat;
-
     background-position: calc(100% - 10px) center;
-    /*
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;
-    */
 }
 
-/* Footer */
-
-footer {
+.section-speaker {
     background-color: #202121;
-    padding: 40px;
     text-align: center;
+    padding: 40px;
 }
 
 .picture {
@@ -101,45 +90,31 @@ footer {
     display: inline-block;
     max-width: 40%;
     margin-left: 40px;
+}
+
+.description h3, .description p {
+    margin-bottom: 20px;
     text-align: left;
 }
 
-.description p, .description h2 {
-    margin-bottom: 20px;
-}
-
-.description p {
-    font-size: 1.6rem;
-}
-
-.description h2 {
-    font-size: 2.4rem;
-}
-
-@media screen and (max-width: 738px) {
-    section {
-        padding: 20px;
-        background-image: url('../imagens/fundo.jpg');
-        background-size: cover;
-        overflow: hidden;
+@media screen and (max-width: 740px) {
+    .section-form {
         display: flex;
         justify-content: center;
     }
 
-    .form-container {
-        max-width: 300px;
-        background-color: #FFFFFFBB;
-        padding: 35px;
-        float: right;
+    .container-form {
+        margin: 0;
     }
 
-    footer {
+    .section-speaker {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
 
     .picture {
-        padding-bottom: 15px;
+        margin: 20px 0;
     }
 }
