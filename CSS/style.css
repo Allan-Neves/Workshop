@@ -79,6 +79,9 @@ select {
     background-color: #202121;
     text-align: center;
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture {
@@ -97,7 +100,7 @@ select {
     text-align: left;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
     .section-form {
         display: flex;
         justify-content: center;
@@ -108,13 +111,18 @@ select {
     }
 
     .section-speaker {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 0;
     }
 
-    .picture {
-        margin: 20px 0;
+    .description {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 12px 0 0 0;
+    }
+
+    .description h3, .description p {
+        text-align: center;
     }
 }
